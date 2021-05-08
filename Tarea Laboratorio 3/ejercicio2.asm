@@ -18,7 +18,7 @@ iterar:
         MOV DX, AX          ;Muevo resultado a DX solo para verlo y tenerlo a la mano
         jmp iterar          ; repito
 exit:
-        MOV word [20Ah], AX  ;aqui muevo el dato(78h = 120d) a la direccion,
+        MOV word [20Bh], AX  ;aqui muevo el dato(78h = 120d) a la direccion,
 
 
 	int	20h
